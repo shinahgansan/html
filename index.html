@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shinah Gansan</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/tablet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">           
+    <link href="https://fonts.cdnfonts.com/css/tangerine" rel="stylesheet">
+
+</head>
+
+<body>
+
+     <!-- Header -->
+     <div class="header">
+         <div class="site-identity">
+            <a href="main-div"></a>
+                 <img src="assets/images/hihi.jpg"   alt="Site Logo">
+                 <h4>God Is Good All The Time</h4>
+             </div>
+        </a>
+        <div class="menu-container"> 
+            <ul class="nav-menu">
+                <li><a href="#main-div">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#PROJECT-1">Projects</a></li>
+                <li class="sibling-4"><a href="#">Works</a></li>
+                <li class="menu-btn"><a href="#">Hire Me</a></li>    
+           </ul>
+        </div>
+
+        <div class="burger-menu-btn">
+            <img src="assets/images/burger.png" alt="" onclick="toggleMenu()">
+        </div>
+     </div>
+   
+     <!--Mobile Menu-->
+     <div class="menu-container-mobile"> 
+        <img class="close-btn" src="assets/images/close.png" alt="" onclick="toggleMenu()">
+            <ul class="nav-menu-mobile">
+                <li><a href="#main-div">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#PROJECT-1">Projects</a></li>
+                <li class="sibling-4"><a href="#">Works</a></li>
+                <li class="menu-btn"><a href="#">Hire Me</a></li>    
+           </ul>
+        </div>
+
+
+     <!-- Eabab2 / Banner -->
+     <div id="main-div" class="eabab2">
+        <div class="eabab2-img" style="position: relative;">
+            <img src="assets/images/eabab2.jpg" alt="eabab2 image">
+            <img class="small-img" src="assets/images/hihi.jpg" alt="Site Logo">
+        </div>
+        <div class="eabab2-heading">
+             <h1 id="output" class="name">Shinah Gansan</h1>
+             <p class="sub-heading">Click If You Want To Know About Me</p>
+             <div class="eabab2-button">
+                <button style="margin-right: 15px;" onclick="showMessage()">Hire Me</button>
+                <script>
+                    function showMessage() {
+                        alert("Welcome to JavaScript!");
+                        
+                        let name = prompt("What is your name");
+                        if(name) {
+                            let likesJS = confirm("Do you like JavaScript");
+
+                            if(likesJS){
+                                document.getElementByld("output").textContent = Hello, ${name}!
+                                Glad you like JavaScript!;
+                            }else{
+                                document.getElementByld("output").textContent = Hello, ${name}!
+                                Hope you learn to enjoy it!;
+
+                            
+                            }
+                        }
+                    }
+                </script>
+                 <button>Contact Me</button>
+             </div>
+             <p class="small-text">Crafting Innovative Digital Solutions for Your Business</p>
+        </div>
+     </div>
+
+     <div class="section-2" id="about">
+        <div class="section-2-div1">
+            <div style="width: 50%;"></div>
+            <div class="image-cont">
+                <img src="assets/images/has.png" alt="">
+            </div>
+        </div>
+        <div class="section2-2">
+            <img src="assets/images/img1.png" alt="">
+            <p style="font-size: 20px; font-weight: bold; margin-right: 20px ;">facebook</p>
+            <img src="assets/images/img2.png" alt="">
+            <p style="font-size: 20px; font-weight: bold; margin-right: 20px;">twitter</p>
+            <img src="assets/images/img3.png" alt="">
+            <p style="font-size: 20px; font-weight: bold; margin-right: 20px;">tiktok</p>
+            <img src="assets/images/img4.png" alt="">
+            <p style="font-size: 20px; font-weight:bold; margin-right: 20px;">instagram</p>
+
+        </div>
+     </div>
+
+      <section class="about-section">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>"Hi, I'm Shinah Gansan! I appreciate the simple joys in life—soft aesthetics, warm atmospheres, and anything that brings a sense of comfort. Whether it's technology, creativity, or just a peaceful moment, I love finding beauty in the little things. This space is a reflection of that, a place to share and enjoy cozy vibes."</p>
+        </div>
+        <div class="about-image">
+            <img src="assets/images/nanana.jpg" alt="About Me">
+        </div>
+     </section>
+
+     <div id="PROJECT-1" class="My-Project">
+        <div class="Projects" >
+            <h3 style="display: flex;justify-content: center;">SKILLS AND EXPERTISE</h3>
+            <p>✅ This artist specializes in creating dreamy digital art in the styles of anime and cyberpunk.  Their work features vibrant pink, purple, and blue tones and showcases strong skills in character design, lighting, and blending techniques to produce expressive and atmospheric illustrations. </p>
+        </div>
+        <div class="GOKULE">
+          <div class="BORDER"> 
+            <img class="MORP" src="assets/images/GON2.jpg" alt="gon">
+            <h3>RECENT PROJECT</h3>
+            <p> The first panel depicts Pinkie Pie overwhelmingly joyful, her eyes wide with star-like sparkles and her expression one of pure delight.   <br> She's covering her face with her forehooves, emphasizing her excitement.  </p>
+        </div> 
+        <div class="BORDER"> 
+              <img class="MORP" src="assets/images/kurapika.jpg" alt="kurapika">
+              <h3>PINKY PIE</h3>
+            <p>The second panel shows a stark contrast: Pinkie Pie is visibly sad, her eyes downcast, and her expression melancholic.  </p>
+        </div> 
+        <div class="BORDER"> 
+             <img class="MORP" src="assets/images/leorio.jpg" alt="leorio">
+             <h3>JOYFUL</h3>
+            <p> The third panel mirrors the first, returning to the image of exuberant happiness. <br>This cyclical presentation of extreme joy and sadness suggests a potentially volatile or unpredictable emotional nature, a common comedic trope for the character.  </p>  
+        </div> 
+        </div>
+     </div>
+     <div class="home-about" id="projects">
+
+        <br>
+        <br>
+    
+            <a  href="home-about"></a>
+         <h1 style="display: flex;justify-content: center;">About</h1>
+         <p>Proven Expertise in Digital Art: From Concept to Final Illustration, I Create Stunning Visuals that Capture Emotion and Inspire Creativity.</p>
+    
+        <br>
+    
+        <li class="btn"><a href="">Contact </a></li>
+    
+       
+     </div>
+       
+         <div class="float"> 
+        <h1 > Get inTouch</h1>
+            <p >Ready to bring your artistic vision to life? 
+                Let's connect and explore how I can create 
+                stunning digital illustrations tailored to 
+                your style. With my expertise in anime, 
+                cyberpunk, and painterly art, I'll craft 
+                captivating visuals that inspire and engage.
+            </p> 
+            <br>
+           <a href="">Schedule a Consultation</a>
+        </div>
+    
+        <div class="photo">
+            <img src="assets/images/pony.jpg" alt="" height="200px" width="200px">
+            <img src="assets/images/pony2.jpg" alt="" height="200px" width="200px">
+            <img src="assets/images/pony3.jpg" alt="" height="200px" width="200px">
+            <img src="assets/images/kurapika.jpg" alt="" height="200px" width="200px">
+        </div>
+    
+        <div class="photo-p">
+            <p>Explore</p>
+            <p>Discover</p>
+            <p>Connect</p>
+            <p>Join</p>
+        </div>
+    
+        <div class="testimonial" id="works">
+            <div class="test-paragraphs">
+            <h1> Testimonials </h1>
+            <p> "Shinah is a true master of his craft. His technical
+                expertise, problem-solving skills, and creative approach
+                have been instrumental in the success of our projects.
+                
+                We highly recommend him to anyone seeking a top-
+                notch full-stack developer"</p>
+    
+                <br>
+    
+                <p class="test2">"Shinah has consistently delivered exceptional results for our organization"</p>
+            </div>
+            <img src="images/testimonial.jpg" alt="" height="100%" width="100%">    
+        </div>
+    
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-branding">
+                    <img src="images/cute&comfi_logo.html.png" alt="Cute & Comfi Logo">
+                    <h4> Cute & Comfi </h4>
+                    <p>Bringing warmth and coziness to everyday life.</p>
+                    <p>© 2025 Cute & Comfi. All Rights Reserved.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#main-div">Home</a></li>
+                        <li><a href="#about-me">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">Join Me</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-socials">
+                    <h4>Follow Me</h4>
+                    <div class="social-icons">
+                        <a href="#"><img src="assets/images/fb.jpg" alt="Facebook"></a>
+                        <a href="#"><img src="assets/images/insta.jpg" alt="Instagram"></a>
+                        <a href="#"><img src="assets/images/tiktok.jpg" alt="Tiktok"></a>
+                        <a href="#"><img src="assets/images/yt.jpg" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+     <script>
+        function toggleMenu(){
+            document.querySelector(".menu-container-mobile").classList.toggle("active");
+        }
+     </script>
+     </body>
+
+
+
+     </html>
+      
+
+     </body>
+     </html>
+
+
+
+
+           
