@@ -11,3 +11,10 @@ function Login(){
         responseText.textContent = 'Empty is required';
     }
 }
+
+var someVariable = "Test";
+
+var stringVar = 2;
+var stringVar = someVariable + "";
+
+responseText.textContent = numberVar;
