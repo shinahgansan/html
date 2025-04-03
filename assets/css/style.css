@@ -3,7 +3,6 @@ html{
 }
 
 body {
-    font-family: "Roboto", serif;
     margin: 0;
 }
 
@@ -19,6 +18,7 @@ body {
 
 .eabab2-img{
     flex-grow: 1;
+    
 }
 
 .eabab2-heading{
@@ -46,9 +46,9 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 100px;
-    background-color: white;
+    background-color: rgb(222, 176, 176);
     z-index: 9998;
-    box-shadow: 0 0 20px rgb(194, 150, 157);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
 }
 
  .nav-menu{
@@ -60,7 +60,7 @@ body{
 
  .nav-menu a{
     text-decoration: none;
-    color: pink;
+    color: rgb(4, 3, 3);
 }
 
 .nav-menu a:hover{
@@ -73,6 +73,7 @@ body{
     display: flex;
     align-items: center;
     gap: 20px;
+    color: rgb(19, 7, 9);
 }
 
  .site-identity img{
@@ -229,7 +230,7 @@ body{
 }
 
 .BORDER{
-    background-color: lightpink;
+    background-color: pink;
     border-radius: 10px;
 
 }
@@ -247,8 +248,8 @@ body{
 
 .home-about{
     background-color: pink;
-    width: 850px;
-    height: 500px;
+    width: 750px;
+    height: 450px;
     padding: 50px;
     position: left;
     margin-top: 0px;
@@ -285,7 +286,7 @@ body{
 
 .float{
     position: absolute;
-    top: 285%;
+    top: 300%;
     margin-bottom: 500px;
     width: 500px;
     left: 1000px;
@@ -320,7 +321,7 @@ body{
     display: flex;
     gap: 10px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .photo-p{
@@ -367,9 +368,8 @@ body{
     justify-content: space-between;
     left: 0px;
     position: absolute;
-    background-color: rgb(153, 101, 110);
-    color: white;
-    padding: 20px 0;
+    background-color: pink;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -394,7 +394,7 @@ body{
 }
 
 .footer-links ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
